@@ -1,9 +1,13 @@
 # dcsv
+### Convert parquet to csv
 
 # Linux
 curl -O https://raw.githubusercontent.com/ramizmuharemovic/dcsv/main/linux/dcsv
 
-sudo cp dcsv /usr/local/bin
+sudo mv dcsv /usr/local/bin
+
+sudo chmod +x /usr/local/bin/dcsv
+
 
 ## Test
 curl -O https://raw.githubusercontent.com/ramizmuharemovic/dcsv/main/test/test.parquet
