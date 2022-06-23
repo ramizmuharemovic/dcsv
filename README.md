@@ -18,4 +18,4 @@ dcsv test.parquet
 # Mac
 curl -O
 
-sudo cp dcsv /usr/local/bin
+sudo mv dcsv /usr/local/bin
