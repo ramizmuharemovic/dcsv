@@ -2,9 +2,7 @@
 ### Convert parquet to csv
 
 # Linux
-curl -O https://raw.githubusercontent.com/ramizmuharemovic/dcsv/main/linux/dcsv
-
-sudo mv dcsv /usr/local/bin
+sudo curl -L --output /usr/local/bin/dcsv https://raw.githubusercontent.com/ramizmuharemovic/dcsv/main/linux/dcsv
 
 sudo chmod +x /usr/local/bin/dcsv
 
