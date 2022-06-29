@@ -16,9 +16,9 @@ dcsv test.parquet
 
 
 # Mac
-sudo curl -L --output /usr/local/bin 
+sudo curl -L --output /usr/local/bin https://raw.githubusercontent.com/ramizmuharemovic/dcsv/main/mac/dcsv
 
-sudo chmod +x /usr/local/bin/dcsv https://raw.githubusercontent.com/ramizmuharemovic/dcsv/main/mac/dcsv
+sudo chmod +x /usr/local/bin/dcsv
 
 ## Test
 curl -O https://raw.githubusercontent.com/ramizmuharemovic/dcsv/main/test/test.parquet
